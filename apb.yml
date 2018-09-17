@@ -1,0 +1,13 @@
+version: 1.0
+name: foo-apb
+description: your description
+bindable: False
+async: optional
+metadata:
+  displayName: foo-apb
+plans:
+  - name: default
+    description: This default plan deploys foo-apb
+    free: True
+    metadata: {}
+    parameters: []
